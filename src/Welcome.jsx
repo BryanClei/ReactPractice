@@ -1,3 +1,8 @@
-export const Welcome = () => {
-  return <h2> Welcome, Bryan!</h2>;
+export const Welcome = ({ name, alias }) => {
+  return (
+    <h2>
+      {" "}
+      Welcome, {name} a.k.a {alias}!
+    </h2>
+  );
 };
