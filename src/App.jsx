@@ -38,7 +38,7 @@ function App() {
       <Greeting message="Welcome" />
       <Greeting />
       <Product
-        title="Gaming Laptop" // strings use double quote & everything else is curly braces, array is curly braces and []
+        title="Gaming Laptop" // strings use double quote & everything else is curly braces, array is curly braces and [] hehe
         price={1299.99}
         inStock={true}
         categories={["Electronics", "Computers", "Gaming"]}
