@@ -9,11 +9,33 @@ import { Product } from "./Product.jsx";
 import { Greeting } from "./Greeting.jsx";
 import { CardWrapper } from "./CardWrapper.jsx";
 import { UserDetails } from "./UserDetails.jsx";
+import { ProductList } from "./ProductList.jsx";
+import { NameList } from "./NameList.jsx";
+import { TodoList } from "./TodoList.jsx";
+import { Alert } from "./Alert.jsx";
+import { CustomButton } from "./CustomButton.jsx";
+import { Contact } from "./Contact.jsx";
+import { NewsLetter } from "./NewsLetter.jsx";
 import "./App.css";
+import { NewButton } from "./NewButton.jsx";
+import { Menu } from "./Menu.jsx";
+import { Counter } from "./Counter.jsx";
 
 function App() {
   return (
     <div>
+      <Counter />
+      <Menu />
+      <Contact />
+      <NewsLetter />
+      <CustomButton text="Like" />
+      <CustomButton text="Bookmark" />
+      <Alert>Your changes have been saved</Alert>
+      <Alert type="error">Something Went Wrong</Alert>
+      <NewButton />
+      <TodoList />
+      <NameList />
+      <ProductList />
       <UserDetails
         name="Bruce Wayne"
         isOnline={true}
