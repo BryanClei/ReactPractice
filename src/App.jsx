@@ -20,12 +20,17 @@ import "./App.css";
 import { NewButton } from "./NewButton.jsx";
 import { Menu } from "./Menu.jsx";
 import { Counter } from "./Counter.jsx";
+import { LoginCard } from "./LoginCard.jsx";
+import { SimpleCounter } from "./SimpleCounter.jsx";
 
 function App() {
   return (
     <div>
-      <Counter />
-      <Menu />
+      <h1>Codevolution React Course</h1>
+      <SimpleCounter />
+      {/* <LoginCard />
+      <Counter /> */}
+      {/* <Menu />
       <Contact />
       <NewsLetter />
       <CustomButton text="Like" />
@@ -74,7 +79,7 @@ function App() {
       <UserProfile />
       <Hello />
       <HelloWithoutJSX />
-      <Button />
+      <Button /> */}
     </div>
   );
 }
