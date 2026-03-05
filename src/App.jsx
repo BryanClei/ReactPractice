@@ -24,12 +24,16 @@ import { LoginCard } from "./LoginCard.jsx";
 import { SimpleCounter } from "./SimpleCounter.jsx";
 import { PrevStateCounter } from "./PrevStateCounter.jsx";
 import { BatchingCounter } from "./BatchingCounter.jsx";
+import { ShoppingCart } from "./ShoppingCart.jsx";
 
 function App() {
   return (
     <div>
       <h1>Codevolution React Course</h1>
-      <BatchingCounter />
+      <ShoppingCart />
+      {/* <TodoList /> */}
+      {/* <UserProfile /> */}
+      {/* <BatchingCounter /> */}
       {/* <SimpleCounter /> */}
       {/* <PrevStateCounter /> */}
       {/* <LoginCard />
