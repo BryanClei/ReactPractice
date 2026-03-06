@@ -33,7 +33,7 @@ function App() {
   return (
     <div>
       <h1>Codevolution</h1>
-      <CounterWithInIt />
+      {/* <CounterWithInIt /> */}
       {/* <ShoppingCartWithReducer /> */}
       {/* <CounterWithReducer /> */}
       {/* <ShoppingCart /> */}
