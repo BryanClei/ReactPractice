@@ -25,12 +25,18 @@ import { SimpleCounter } from "./SimpleCounter.jsx";
 import { PrevStateCounter } from "./PrevStateCounter.jsx";
 import { BatchingCounter } from "./BatchingCounter.jsx";
 import { ShoppingCart } from "./ShoppingCart.jsx";
+import { CounterWithReducer } from "./CounterWithReducer.jsx";
+import { ShoppingCartWithReducer } from "./ShoppingCartWithReducer.jsx";
+import { CounterWithInIt } from "./CounterWithInIt.jsx";
 
 function App() {
   return (
     <div>
-      <h1>Codevolution React Course</h1>
-      <ShoppingCart />
+      <h1>Codevolution</h1>
+      <CounterWithInIt />
+      {/* <ShoppingCartWithReducer /> */}
+      {/* <CounterWithReducer /> */}
+      {/* <ShoppingCart /> */}
       {/* <TodoList /> */}
       {/* <UserProfile /> */}
       {/* <BatchingCounter /> */}
